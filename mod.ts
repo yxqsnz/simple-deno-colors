@@ -1,0 +1,11 @@
+export const Green = "color: green"
+export const Red   = "color: red"
+export const Magenta = "color: magenta"
+export const Black = "color: black"
+export const White = "color: white"
+export const Cyan = "color: cyan"
+export const Blue = "color: blue"
+export const Underline = "text-decoration: underline"
+export const Bold = "font-weight: bold"
+export const Reset = "all: reset"
+export const Mix = (...items: string[]) => items.join(";")
